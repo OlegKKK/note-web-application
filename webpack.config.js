@@ -42,17 +42,13 @@ module.exports = {
             },
             {
                 test: /\.jsx$/,
+                loader: "react-hot!babel",
                 exclude: [/node_modules/, /public/]
-                loader: "babel",
-                query:
-      {
-        presets:['react']
             },
             {
                 test: /\.json$/,
                 loader: "json-loader"
             }
-
         ]
     }
 }
