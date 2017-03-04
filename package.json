@@ -2,7 +2,7 @@
   "name": "note-web-application",
   "version": "1.0.0",
   "description": "Web based application for add, edit and delete notes",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,12 +15,21 @@
     "webapp"
   ],
   "author": "OlegK",
-  "license": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/OlegKKK/note-web-application/issues"
   },
   "homepage": "https://github.com/OlegKKK/note-web-application#readme",
   "dependencies": {
     "express": "^4.15.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.0",
+    "babel-loader": "^6.0.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "react": "^0.14.1"
   }
 }
