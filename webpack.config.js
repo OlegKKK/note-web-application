@@ -1,5 +1,4 @@
 var webpack = require('webpack');
-
 module.exports = {
     entry: "./client/main.js",
     output: {
