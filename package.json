@@ -31,7 +31,7 @@
     "jquery": "*",
     "keymirror": "^0.1.1",
     "less": "^2.6.0",
-    "mongodb": "^2.2.24",
+    "mongodb": "^3.6.1",
     "mongoose": "^4.8.5",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
